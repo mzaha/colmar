@@ -308,7 +308,7 @@ footer {
   }
 
   .container {
-    max-width: 700px;
+    max-width: 481px;
     flex-direction: column;
     margin: 0 auto;
   }
@@ -405,4 +405,19 @@ footer {
     display: none;
   }
 
+}
+
+@media only screen and (min-width: 1600px) {
+  .container {
+    max-width: 1600px;
+  }
+
+  .headline h1 {
+    font-size: 5rem;
+    line-height: 1.0;
+  }
+
+  .headline {
+    font-size: 2rem;
+  }
 }
