@@ -59,29 +59,15 @@ h3 {
   padding: 1.5rem 0;
 }
 
-/*p {
-  color: rgb(117, 116, 116);
-}*/
-
-/*h4{
-font-size: 1rem;
-
-}*/
-
 .container {
   display: flex;
   margin: 0 auto;
-  max-width: 1600px;
+  max-width: 960px;
 }
 
 .highlight {
   background-color: rgb(235, 230, 220);
 }
-
-/*.font-highlight {
-  color: rgb(25, 25, 150);
-  letter-spacing: 1.4;
-}*/
 
 .bold {
   font-weight: 700;
@@ -192,6 +178,7 @@ nav a:active {
   width: 40%;
   height: auto;
   overflow: hidden;
+  margin-bottom: 2rem;
 }
 
 .summary-item  {
@@ -418,14 +405,4 @@ footer {
     display: none;
   }
 
-}
-
-@media only screen and (min width: 1600px) {
-  .container {
-    max-width: 1600px;
-  }
-
-  h2 {
-    font-size: 5rem;
-  }
 }
